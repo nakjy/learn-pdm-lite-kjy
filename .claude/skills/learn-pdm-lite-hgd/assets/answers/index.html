@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>노이즈 vs 추세</title>
+<style>
+:root{--bg:#fafaf8;--fg:#1d1d1b;--mute:#6b6b66;--line:#e2e1dc;--a:#2f6db5;--b:#c2571a;--hit:#c62828}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--fg:#ecebe6;--mute:#a09f99;--line:#33322f;--a:#6fa3e0;--b:#ee8a4f;--hit:#ff6b6b}}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,"Malgun Gothic",sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px}
+h1{font-size:1.3rem;margin:0 0 6px} p{margin:0 0 14px;line-height:1.5}
+svg{width:100%;height:auto;display:block}
+.grid{stroke:var(--line)} .tick{fill:var(--mute);font-size:11px}
+.limit{stroke-dasharray:5 4;stroke-width:1.2;opacity:.8}
+.hit{fill:none;stroke:var(--hit);stroke-width:2} .lab{fill:var(--hit);font-size:12px;font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.85rem;color:var(--mute);margin:6px 0 12px}
+.legend i{display:inline-block;width:14px;height:3px;margin-right:6px;vertical-align:middle}
+small{color:var(--mute);line-height:1.5;display:block}
+</style></head><body><main>
+<h1>노이즈 vs 추세 — 설비A·B 진동</h1>
+<p>설비A는 3.5 mm/s 한 번 튀고 돌아온 <b>노이즈</b>, 설비B는 꾸준히 오르는 <b>추세</b>(2.2→2.9) — 정비 신호는 설비B.</p>
+<div class="legend"><span><i style="background:var(--a)"></i>설비A · 상한 2.10</span><span><i style="background:var(--b)"></i>설비B · 상한 2.08</span><span>점선 = 평상 범위 상한(평균 + 2σ) · 빨간 원 = 이상 후보</span></div>
+<svg viewBox="0 0 640 340" role="img" aria-label="설비A·B 진동 시계열"><line x1="44" x2="624" y1="300.0" y2="300.0" class="grid"/><text x="36" y="304.0" class="tick" text-anchor="end">0</text><line x1="44" x2="624" y1="229.0" y2="229.0" class="grid"/><text x="36" y="233.0" class="tick" text-anchor="end">1</text><line x1="44" x2="624" y1="158.0" y2="158.0" class="grid"/><text x="36" y="162.0" class="tick" text-anchor="end">2</text><line x1="44" x2="624" y1="87.0" y2="87.0" class="grid"/><text x="36" y="91.0" class="tick" text-anchor="end">3</text><line x1="44" x2="624" y1="16.0" y2="16.0" class="grid"/><text x="36" y="20.0" class="tick" text-anchor="end">4</text><text x="44.0" y="318" class="tick" text-anchor="middle">08:00</text><text x="189.0" y="318" class="tick" text-anchor="middle">10:00</text><text x="334.0" y="318" class="tick" text-anchor="middle">12:00</text><text x="479.0" y="318" class="tick" text-anchor="middle">14:00</text><text x="624.0" y="318" class="tick" text-anchor="middle">16:00</text><line x1="44" x2="624" y1="150.7" y2="150.7" stroke="var(--a)" class="limit"/><polyline points="44.0,229.7 68.2,225.5 92.3,234.7 116.5,234.0 140.7,225.5 164.8,229.0 189.0,234.0 213.2,231.8 237.3,234.0 261.5,231.8 285.7,224.7 309.8,229.0 334.0,221.9 358.2,236.1 382.3,51.5 406.5,229.0 430.7,226.2 454.8,233.3 479.0,224.7 503.2,224.7 527.3,227.6 551.5,226.9 575.7,229.7 599.8,234.0 624.0,226.9" fill="none" stroke="var(--a)" stroke-width="2"/><circle cx="382.3" cy="51.5" r="5" class="hit"/><text x="374.3" y="55.5" class="lab" text-anchor="end">3.5</text><line x1="44" x2="624" y1="152.0" y2="152.0" stroke="var(--b)" class="limit"/><polyline points="44.0,233.3 68.2,225.5 92.3,226.9 116.5,226.9 140.7,225.5 164.8,229.0 189.0,225.5 213.2,228.3 237.3,228.3 261.5,231.8 285.7,227.6 309.8,228.3 334.0,226.2 358.2,226.2 382.3,224.7 406.5,225.5 430.7,223.3 454.8,221.9 479.0,220.5 503.2,222.6 527.3,229.0 551.5,207.7 575.7,179.3 599.8,143.8 624.0,94.1" fill="none" stroke="var(--b)" stroke-width="2"/><circle cx="599.8" cy="143.8" r="5" class="hit"/><text x="591.8" y="147.8" class="lab" text-anchor="end">2.2</text><circle cx="624.0" cy="94.1" r="5" class="hit"/><text x="616.0" y="98.1" class="lab" text-anchor="end">2.9</text></svg>
+<small>진동 단위 mm/s · 2026-09-15 08:00~16:00, 20분 간격 · 평상 범위는 설비별 평균 ± 2 × 표본 표준편차.<br>
+가상 데이터 — 출처: keerhee/kma-auto-genai-3-1 data/Day5/Day5_설비센서_50건_가상.csv (Day5 예지보전 실습용)</small>
+</main></body></html>

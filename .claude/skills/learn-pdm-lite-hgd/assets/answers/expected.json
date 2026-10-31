@@ -1,0 +1,49 @@
+{
+ "values": {
+  "rows": {
+   "value": 50,
+   "decimals": 0,
+   "block": 0
+  },
+  "A_vib_upper": {
+   "value": 2.1,
+   "decimals": 2,
+   "block": 1
+  },
+  "A_vib_candidate": {
+   "value": 3.5,
+   "decimals": 1,
+   "block": 1
+  },
+  "A_vib_candidate_count": {
+   "value": 1,
+   "decimals": 0,
+   "block": 1
+  },
+  "B_vib_upper": {
+   "value": 2.08,
+   "decimals": 2,
+   "block": 1
+  },
+  "B_vib_candidate_1": {
+   "value": 2.2,
+   "decimals": 1,
+   "block": 1
+  },
+  "B_vib_candidate_2": {
+   "value": 2.9,
+   "decimals": 1,
+   "block": 1
+  },
+  "B_temp_candidate": {
+   "value": 65.1,
+   "decimals": 1,
+   "block": 1
+  },
+  "candidates_total": {
+   "value": 4,
+   "decimals": 0,
+   "block": 1
+  }
+ }
+}
