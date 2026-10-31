@@ -1,6 +1,6 @@
-# curriculum — learn-pdm-lite-hgd
+# curriculum — learn-pdm-lite-kjy
 
-- learn 이름: `learn-pdm-lite-hgd` — 사용자가 지정 (예지보전 가벼운판 + 만든 사람 이니셜)
+- learn 이름: `learn-pdm-lite-kjy` — 사용자가 지정 (예지보전 가벼운판 + 만든 사람 이니셜)
 - 대상 · 시간 · 결과물: 수업 중 동료 · 10분 · 설비A·B 진동 그래프 한 장(평상 범위·이상 후보 표시)을 GitHub Pages로 공개
 
 ## 블록

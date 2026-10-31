@@ -46,7 +46,7 @@
 그다음 수강생이 직접 할 일:
 
 1. Claude 앱 Code 탭에서 **새 세션 → Local → 폴더 선택**으로 `pdm-lite` 폴더를 연다.
-2. 새 세션에서 `/learn-pdm-lite-hgd`를 불러 Block 1로 이어 간다.
+2. 새 세션에서 `/learn-pdm-lite-kjy`를 불러 Block 1로 이어 간다.
 
 ### 확인할 것 (Phase B)
 

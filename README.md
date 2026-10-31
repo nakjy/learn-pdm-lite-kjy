@@ -1,21 +1,21 @@
-# Day5 예지보전 · 노이즈 vs 추세 (10분) — learn-pdm-lite-hgd
+# Day5 예지보전 · 노이즈 vs 추세 (10분) — learn-pdm-lite-kjy
 
-설비 센서 데이터(가상 50건)에서 평상 범위(평균 ± 2σ)로 이상 후보를 찾고, 한 번의 튐(노이즈)과 추세적 상승을 구분하는 10분 수업 실습. 수업은 Claude Code 스킬 `/learn-pdm-lite-hgd`가 진행한다 (Skills as Curriculum). 이 강의는 course-forge로 직접 만들었다.
+설비 센서 데이터(가상 50건)에서 평상 범위(평균 ± 2σ)로 이상 후보를 찾고, 한 번의 튐(노이즈)과 추세적 상승을 구분하는 10분 수업 실습. 수업은 Claude Code 스킬 `/learn-pdm-lite-kjy`가 진행한다 (Skills as Curriculum). 이 강의는 course-forge로 직접 만들었다.
 
-- **결과 대시보드**: https://nakjy.github.io/learn-pdm-lite-hgd/
+- **결과 대시보드**: https://nakjy.github.io/learn-pdm-lite-kjy/
 - 처음이면 [GUIDE.md](GUIDE.md)부터. 기본 환경은 Claude 데스크톱 앱(Code 탭). VS Code는 GUIDE 부록 B
 
-![결과 그래프](.claude/skills/learn-pdm-lite-hgd/assets/answers/preview.png)
+![결과 그래프](.claude/skills/learn-pdm-lite-kjy/assets/answers/preview.png)
 
 ## 설치 — 한 줄
 
 Claude Code 입력칸에 붙여 넣는다.
 
 ```
-npx skills add nakjy/learn-pdm-lite-hgd --agent claude-code --global --yes 를 실행해 줘
+npx skills add nakjy/learn-pdm-lite-kjy --agent claude-code --global --yes 를 실행해 줘
 ```
 
-새 세션에서 `/learn-pdm-lite-hgd`를 입력하면 수업이 시작된다. zip을 받았다면 GUIDE.md 2단계대로 설치한다.
+새 세션에서 `/learn-pdm-lite-kjy`를 입력하면 수업이 시작된다. zip을 받았다면 GUIDE.md 2단계대로 설치한다.
 
 ## 블록
 

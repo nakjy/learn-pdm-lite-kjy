@@ -1,6 +1,6 @@
 ---
-name: learn-pdm-lite-hgd
-description: Day5 예지보전 가벼운 수업 실습(10분) — 설비 센서 데이터에서 평상 범위(평균 ± 2σ)로 이상 후보를 찾고, 한 번의 튐(노이즈)과 추세적 상승을 구분한 진동 그래프 한 장을 GitHub Pages로 공개한다. "learn-pdm-lite-hgd", "예지보전 10분 실습", "5일차 노이즈 vs 추세" 요청에 사용.
+name: learn-pdm-lite-kjy
+description: Day5 예지보전 가벼운 수업 실습(10분) — 설비 센서 데이터에서 평상 범위(평균 ± 2σ)로 이상 후보를 찾고, 한 번의 튐(노이즈)과 추세적 상승을 구분한 진동 그래프 한 장을 GitHub Pages로 공개한다. "learn-pdm-lite-kjy", "예지보전 10분 실습", "5일차 노이즈 vs 추세" 요청에 사용.
 ---
 
 # Day5 예지보전 · 노이즈 vs 추세 (10분)

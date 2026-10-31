@@ -12,7 +12,7 @@
 | 말 | 이 수업에서는 |
 |---|---|
 | AI Native | 계산·그래프는 Claude에게 맡기고, 나는 "어느 쪽이 정비 신호인가"를 판단한다 |
-| Skills as Curriculum | `/learn-pdm-lite-hgd` 스킬이 강사가 되어 설명 → 실습 → 퀴즈를 진행한다 |
+| Skills as Curriculum | `/learn-pdm-lite-kjy` 스킬이 강사가 되어 설명 → 실습 → 퀴즈를 진행한다 |
 | 자율학습 | 강사 없이 내 속도로. 블록 3개, 약 10분 |
 
 ### 용어 6개만
@@ -59,13 +59,13 @@
 
 ## 2단계. 수업 스킬 설치
 
-받은 `learn-pdm-lite-hgd.zip`의 위치를 넣어 입력칸에 붙여 넣는다.
+받은 `learn-pdm-lite-kjy.zip`의 위치를 넣어 입력칸에 붙여 넣는다.
 
 ```
-다운로드 폴더의 learn-pdm-lite-hgd.zip 을 풀어서 안의 .claude/skills/learn-pdm-lite-hgd 폴더를 내 홈 폴더의 .claude/skills/ 아래에 넣어 줘. 다른 파일은 건드리지 마.
+다운로드 폴더의 learn-pdm-lite-kjy.zip 을 풀어서 안의 .claude/skills/learn-pdm-lite-kjy 폴더를 내 홈 폴더의 .claude/skills/ 아래에 넣어 줘. 다른 파일은 건드리지 마.
 ```
 
-새 세션을 열고 입력칸에 `/learn-pdm-lite-hgd`를 입력해 수업이 시작되는지 확인한다.
+새 세션을 열고 입력칸에 `/learn-pdm-lite-kjy`를 입력해 수업이 시작되는지 확인한다.
 
 ## 3단계. 수업 체험 — Block 1 한 바퀴
 
@@ -90,7 +90,7 @@
 
 | 상황 | 입력칸에 쓸 문장 |
 |---|---|
-| `/learn-pdm-lite-hgd`가 안 보인다 | `learn-pdm-lite-hgd 스킬이 왜 안 보이는지 설치 위치를 확인해서 고쳐 줘` |
+| `/learn-pdm-lite-kjy`가 안 보인다 | `learn-pdm-lite-kjy 스킬이 왜 안 보이는지 설치 위치를 확인해서 고쳐 줘` |
 | 이상 후보 수치가 다르다 | `평상 범위를 설비별로 따로, 표본 표준편차로 계산했는지 확인하고 다시 계산해 줘` |
 | 그래프가 안 열린다 | `index.html 이 안 열리는 원인을 찾아 줘` |
 | Pages 주소가 안 열린다 | `Pages 주소가 안 열리는 원인을 찾아 줘` (켠 직후면 1~2분 기다린다) |
